@@ -26,7 +26,7 @@ def add_student(students):
         print("Student ID already exists.")
         return
     name = input("Enter Student Name: ")
-    course = input("Enter Course: ")
+    course = input("Enter a Course: ")
     students[sid] = {'name': name, 'course': course}
     save_students(students)
     print("Student added and saved.")
